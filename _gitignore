@@ -1,7 +1,1 @@
-{{if vuex}}
-src/store/**/*
-{{/if}}
 
-{{#if_eq platform "mobile"}}
-postcss.config.js
-{{/if_eq}}
