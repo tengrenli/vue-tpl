@@ -18,9 +18,9 @@
     "fastclick": "^1.0.6",
     "lodash": "^4.17.15",
     "md5": "^2.2.1",
-    {{#if_eq platform "mobile"}}
+    {{#if platform "mobile"}}
     "lib-flexible": "^0.3.2",
-    {{/if_eq}}
+    {{/if}}
     "mockjs": "^1.1.0",
     "vant": "^2.2.16",
     "vue": "^2.6.10",
