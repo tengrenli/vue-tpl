@@ -1,6 +1,6 @@
-{{#if platform}}
+{{#if_eq platform "mobile"}}
 import 'lib-flexible'
-{{/if}}
+{{/if_eq}}
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
