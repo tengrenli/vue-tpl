@@ -1,3 +1,6 @@
-{{#if !vuex}}
+{{#if vuex}}
 src/store/index.js
+{{/if}}
+{{#if platform "mobile"}}
+postcss.config.js
 {{/if}}
