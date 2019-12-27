@@ -1,6 +1,6 @@
 {{#if vuex}}
 src/store/index.js
 {{/if}}
-{{#if platform === "mobile"}}
+{{#equal platform  "mobile"}}
 postcss.config.js
-{{/if}}
+{{/equal}}
